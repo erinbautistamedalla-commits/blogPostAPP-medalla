@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* 1. DEFINE YOUR CUSTOM THEME AND ROOT STYLES */
+@theme {
+  --font-theme-header: 'Cinzel', serif;
+  --font-theme-serif: 'Lora', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #030712; /* Rich Deep Obsidian Black */
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Clean, modern body text */
+  color: #f3f4f6; /* Off-white for crisp, high-contrast readability */
+  overflow-x: hidden;
+}
+
+/* 2. TRANSLATE TO TAILWIND V4 UTILITY DECLARATIONS */
+
+/* Standard, high-contrast, professional form fields */
+@utility pro-input {
+  @apply w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-sm text-slate-100 
+         placeholder-slate-500 transition-all duration-200
+         focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-500;
+}
+
+/* Clear, predictable call-to-action buttons */
+@utility pro-btn-primary {
+  @apply w-full py-3 bg-amber-600 hover:bg-amber-500 text-slate-950 rounded-xl text-sm font-semibold 
+         transition-all duration-200 shadow-lg shadow-amber-600/10 active:scale-[0.99]
+         disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+/* Highly structured text cards with distinct borders */
+@utility pro-card {
+  @apply bg-slate-900/60 border border-slate-800 backdrop-blur-md rounded-2xl p-6 md:p-8
+         transition-all duration-300 shadow-xl hover:border-amber-500/20;
+}
+
+/* Typography tokens linked to our defined theme variables */
+@utility font-theme-header {
+  font-family: var(--font-theme-header);
+  letter-spacing: 0.1em;
+}
+
+@utility font-theme-serif {
+  font-family: var(--font-theme-serif);
+  line-height: 1.75;
+}
