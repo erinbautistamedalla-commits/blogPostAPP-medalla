@@ -1,38 +1,79 @@
-# blogpostAPP-frontend-medalla
+# BLOG POST APP
 
-This template should help get you started developing with Vue 3 in Vite.
+A full-stack blog application built as part of the Zuitt Full Stack Web Development Bootcamp.
 
-## Recommended IDE Setup
+## Overview
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The Blog Post App demonstrates a client/server web application architecture using Vue.js on the frontend and a Node.js/Express backend.
 
-## Recommended Browser Setup
+The project provided hands-on experience building a frontend application that communicates with a dedicated backend API and working with structured backend components including controllers, models, routes, and authentication.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Tech Stack
 
-## Customize configuration
+### Frontend
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+* Vue 3
+* JavaScript
+* Vite
+* HTML5
+* CSS3
 
-## Project Setup
+### Backend
 
-```sh
-npm install
-```
+* Node.js
+* Express.js
+* MongoDB
+* REST API
+* Authentication
 
-### Compile and Hot-Reload for Development
+## Architecture
 
-```sh
-npm run dev
-```
+The application is divided into two repositories:
 
-### Compile and Minify for Production
+**Client**
 
-```sh
-npm run build
-```
+* Vue 3 frontend
+* Vite development environment
+* Client-side application interface
+
+**Server**
+
+* Node.js / Express.js backend
+* Controllers
+* Models
+* Routes
+* Authentication
+* API endpoints
+
+## Development Concepts
+
+* Client/server architecture
+* REST API integration
+* Vue.js development
+* Backend routing
+* Controllers and models
+* Authentication
+* API-driven frontend development
+
+## Live Demo
+
+https://blog-post-app-medalla.vercel.app/
+
+## Repositories
+
+**Frontend:**
+https://github.com/erinbautistamedalla-commits/blogPostAPP-medalla
+
+**Backend:**
+https://github.com/erinbautistamedalla-commits/blogPostAPP
+
+## Developer
+
+**Raisa Erina “Erin” Bautista-Medalla**
+
+Full-Stack Developer | Computer Studies Graduate
+
+GitHub: https://github.com/erinbautistamedalla-commits
+
+
+
